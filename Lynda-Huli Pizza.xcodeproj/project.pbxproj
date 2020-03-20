@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC06FE9E24222F3500DC6BCF /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC06FE9D24222F3500DC6BCF /* HistoryDetailView.swift */; };
+		DC06FEA02422319500DC6BCF /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC06FE9F2422319500DC6BCF /* RootTabView.swift */; };
+		DC21C28E241A215E007DCAB1 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21C28D241A215E007DCAB1 /* OrderListView.swift */; };
+		DC21C290241A21DE007DCAB1 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21C28F241A21DE007DCAB1 /* MenuListView.swift */; };
+		DC21C292241A2239007DCAB1 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21C291241A2239007DCAB1 /* ContentHeaderView.swift */; };
+		DC21C294241A2305007DCAB1 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21C293241A2305007DCAB1 /* OrderRowView.swift */; };
+		DC21C296241A2341007DCAB1 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21C295241A2341007DCAB1 /* MenuRowView.swift */; };
+		DC21C298241A236F007DCAB1 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21C297241A236F007DCAB1 /* RatingsView.swift */; };
+		DC21C29A241A243C007DCAB1 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21C299241A243C007DCAB1 /* PageTitleView.swift */; };
+		DC21C29C241A2539007DCAB1 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21C29B241A2539007DCAB1 /* HistoryView.swift */; };
+		DC21C29E241A257E007DCAB1 /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21C29D241A257E007DCAB1 /* HistoryListView.swift */; };
+		DC36B1C22423749D0043B1EF /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC36B1C12423749D0043B1EF /* ConfirmView.swift */; };
+		DC41FE3A24178E8500DD8223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC41FE3924178E8500DD8223 /* AppDelegate.swift */; };
+		DC41FE3C24178E8500DD8223 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC41FE3B24178E8500DD8223 /* SceneDelegate.swift */; };
+		DC41FE3E24178E8500DD8223 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC41FE3D24178E8500DD8223 /* ContentView.swift */; };
+		DC41FE4024178E8700DD8223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC41FE3F24178E8700DD8223 /* Assets.xcassets */; };
+		DC41FE4324178E8700DD8223 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC41FE4224178E8700DD8223 /* Preview Assets.xcassets */; };
+		DC41FE4624178E8700DD8223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC41FE4424178E8700DD8223 /* LaunchScreen.storyboard */; };
+		DC75ABC4241D78CB0070CBD7 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75ABC1241D78CB0070CBD7 /* MenuModel.swift */; };
+		DC75ABC5241D78CB0070CBD7 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75ABC2241D78CB0070CBD7 /* HistoryModel.swift */; };
+		DC75ABC6241D78CB0070CBD7 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75ABC3241D78CB0070CBD7 /* OrderModel.swift */; };
+		DC75ABC8241DA8930070CBD7 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75ABC7241DA8930070CBD7 /* MenuDetailView.swift */; };
+		DCA625FE241C8A160023158B /* HistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA625FD241C8A160023158B /* HistoryRowView.swift */; };
+		DCA62600241C8DAF0023158B /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA625FF241C8DAF0023158B /* ListHeaderView.swift */; };
+		DCA62602241CDAFB0023158B /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA62601241CDAFB0023158B /* SelectedImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC06FE9D24222F3500DC6BCF /* HistoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
+		DC06FE9F2422319500DC6BCF /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		DC21C28D241A215E007DCAB1 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		DC21C28F241A21DE007DCAB1 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		DC21C291241A2239007DCAB1 /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
+		DC21C293241A2305007DCAB1 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		DC21C295241A2341007DCAB1 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		DC21C297241A236F007DCAB1 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		DC21C299241A243C007DCAB1 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		DC21C29B241A2539007DCAB1 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		DC21C29D241A257E007DCAB1 /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		DC36B1C12423749D0043B1EF /* ConfirmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmView.swift; sourceTree = "<group>"; };
+		DC41FE3624178E8500DD8223 /* Lynda-Huli Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lynda-Huli Pizza.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC41FE3924178E8500DD8223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC41FE3B24178E8500DD8223 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC41FE3D24178E8500DD8223 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC41FE3F24178E8700DD8223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC41FE4224178E8700DD8223 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC41FE4524178E8700DD8223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC41FE4724178E8700DD8223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC75ABC1241D78CB0070CBD7 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		DC75ABC2241D78CB0070CBD7 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		DC75ABC3241D78CB0070CBD7 /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		DC75ABC7241DA8930070CBD7 /* MenuDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetailView.swift; sourceTree = "<group>"; };
+		DCA625FD241C8A160023158B /* HistoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowView.swift; sourceTree = "<group>"; };
+		DCA625FF241C8DAF0023158B /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
+		DCA62601241CDAFB0023158B /* SelectedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC41FE3324178E8500DD8223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC21C289241A20F4007DCAB1 /* HistoryView */ = {
+			isa = PBXGroup;
+			children = (
+				DC21C29B241A2539007DCAB1 /* HistoryView.swift */,
+				DC21C29D241A257E007DCAB1 /* HistoryListView.swift */,
+				DC06FE9D24222F3500DC6BCF /* HistoryDetailView.swift */,
+				DCA625FD241C8A160023158B /* HistoryRowView.swift */,
+			);
+			path = HistoryView;
+			sourceTree = "<group>";
+		};
+		DC21C28A241A2121007DCAB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC75ABC2241D78CB0070CBD7 /* HistoryModel.swift */,
+				DC75ABC1241D78CB0070CBD7 /* MenuModel.swift */,
+				DC75ABC3241D78CB0070CBD7 /* OrderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC21C28B241A2127007DCAB1 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				DC21C28F241A21DE007DCAB1 /* MenuListView.swift */,
+				DC21C295241A2341007DCAB1 /* MenuRowView.swift */,
+				DC21C297241A236F007DCAB1 /* RatingsView.swift */,
+				DC75ABC7241DA8930070CBD7 /* MenuDetailView.swift */,
+				DC36B1C12423749D0043B1EF /* ConfirmView.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		DC21C28C241A212F007DCAB1 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				DC21C28D241A215E007DCAB1 /* OrderListView.swift */,
+				DC21C293241A2305007DCAB1 /* OrderRowView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		DC41FE2D24178E8500DD8223 = {
+			isa = PBXGroup;
+			children = (
+				DC41FE3824178E8500DD8223 /* Lynda-Huli Pizza */,
+				DC41FE3724178E8500DD8223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC41FE3724178E8500DD8223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC41FE3624178E8500DD8223 /* Lynda-Huli Pizza.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC41FE3824178E8500DD8223 /* Lynda-Huli Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				DC06FE9F2422319500DC6BCF /* RootTabView.swift */,
+				DCA625FF241C8DAF0023158B /* ListHeaderView.swift */,
+				DC21C291241A2239007DCAB1 /* ContentHeaderView.swift */,
+				DC41FE3D24178E8500DD8223 /* ContentView.swift */,
+				DC21C299241A243C007DCAB1 /* PageTitleView.swift */,
+				DCA62601241CDAFB0023158B /* SelectedImageView.swift */,
+				DC21C28C241A212F007DCAB1 /* OrderView */,
+				DC21C28B241A2127007DCAB1 /* MenuView */,
+				DC21C28A241A2121007DCAB1 /* Model */,
+				DC21C289241A20F4007DCAB1 /* HistoryView */,
+				DC41FE3924178E8500DD8223 /* AppDelegate.swift */,
+				DC41FE3B24178E8500DD8223 /* SceneDelegate.swift */,
+				DC41FE3F24178E8700DD8223 /* Assets.xcassets */,
+				DC41FE4424178E8700DD8223 /* LaunchScreen.storyboard */,
+				DC41FE4724178E8700DD8223 /* Info.plist */,
+				DC41FE4124178E8700DD8223 /* Preview Content */,
+			);
+			path = "Lynda-Huli Pizza";
+			sourceTree = "<group>";
+		};
+		DC41FE4124178E8700DD8223 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC41FE4224178E8700DD8223 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC41FE3524178E8500DD8223 /* Lynda-Huli Pizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC41FE4A24178E8700DD8223 /* Build configuration list for PBXNativeTarget "Lynda-Huli Pizza" */;
+			buildPhases = (
+				DC41FE3224178E8500DD8223 /* Sources */,
+				DC41FE3324178E8500DD8223 /* Frameworks */,
+				DC41FE3424178E8500DD8223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lynda-Huli Pizza";
+			productName = "Lynda-Huli Pizza";
+			productReference = DC41FE3624178E8500DD8223 /* Lynda-Huli Pizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC41FE2E24178E8500DD8223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Quonsepto Limited";
+				TargetAttributes = {
+					DC41FE3524178E8500DD8223 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DC41FE3124178E8500DD8223 /* Build configuration list for PBXProject "Lynda-Huli Pizza" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC41FE2D24178E8500DD8223;
+			productRefGroup = DC41FE3724178E8500DD8223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC41FE3524178E8500DD8223 /* Lynda-Huli Pizza */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC41FE3424178E8500DD8223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC41FE4624178E8700DD8223 /* LaunchScreen.storyboard in Resources */,
+				DC41FE4324178E8700DD8223 /* Preview Assets.xcassets in Resources */,
+				DC41FE4024178E8700DD8223 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC41FE3224178E8500DD8223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC75ABC4241D78CB0070CBD7 /* MenuModel.swift in Sources */,
+				DC41FE3A24178E8500DD8223 /* AppDelegate.swift in Sources */,
+				DC06FE9E24222F3500DC6BCF /* HistoryDetailView.swift in Sources */,
+				DC75ABC8241DA8930070CBD7 /* MenuDetailView.swift in Sources */,
+				DC21C290241A21DE007DCAB1 /* MenuListView.swift in Sources */,
+				DC21C29A241A243C007DCAB1 /* PageTitleView.swift in Sources */,
+				DC21C29C241A2539007DCAB1 /* HistoryView.swift in Sources */,
+				DC06FEA02422319500DC6BCF /* RootTabView.swift in Sources */,
+				DC21C28E241A215E007DCAB1 /* OrderListView.swift in Sources */,
+				DC21C292241A2239007DCAB1 /* ContentHeaderView.swift in Sources */,
+				DC21C298241A236F007DCAB1 /* RatingsView.swift in Sources */,
+				DCA62602241CDAFB0023158B /* SelectedImageView.swift in Sources */,
+				DCA62600241C8DAF0023158B /* ListHeaderView.swift in Sources */,
+				DC75ABC6241D78CB0070CBD7 /* OrderModel.swift in Sources */,
+				DC21C296241A2341007DCAB1 /* MenuRowView.swift in Sources */,
+				DCA625FE241C8A160023158B /* HistoryRowView.swift in Sources */,
+				DC75ABC5241D78CB0070CBD7 /* HistoryModel.swift in Sources */,
+				DC21C29E241A257E007DCAB1 /* HistoryListView.swift in Sources */,
+				DC41FE3C24178E8500DD8223 /* SceneDelegate.swift in Sources */,
+				DC36B1C22423749D0043B1EF /* ConfirmView.swift in Sources */,
+				DC21C294241A2305007DCAB1 /* OrderRowView.swift in Sources */,
+				DC41FE3E24178E8500DD8223 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC41FE4424178E8700DD8223 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC41FE4524178E8700DD8223 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC41FE4824178E8700DD8223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC41FE4924178E8700DD8223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC41FE4B24178E8700DD8223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lynda-Huli Pizza/Preview Content\"";
+				DEVELOPMENT_TEAM = UAF5HBHXWW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lynda-Huli Pizza/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quonsepto.Lynda-Huli-Pizza";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC41FE4C24178E8700DD8223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lynda-Huli Pizza/Preview Content\"";
+				DEVELOPMENT_TEAM = UAF5HBHXWW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lynda-Huli Pizza/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quonsepto.Lynda-Huli-Pizza";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC41FE3124178E8500DD8223 /* Build configuration list for PBXProject "Lynda-Huli Pizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC41FE4824178E8700DD8223 /* Debug */,
+				DC41FE4924178E8700DD8223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC41FE4A24178E8700DD8223 /* Build configuration list for PBXNativeTarget "Lynda-Huli Pizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC41FE4B24178E8700DD8223 /* Debug */,
+				DC41FE4C24178E8700DD8223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC41FE2E24178E8500DD8223 /* Project object */;
+}
