@@ -9,7 +9,9 @@
 import SwiftUI
 
 struct ConfirmView: View {
+    let sizes:[Size] = [.small, .medium, .large]
     var menuID:Int
+    @EnvironmentObject var settings:UserPreferences
     @Binding var isPresented:Bool
     @ObservedObject var orderModel:OrderModel
     @Binding var quantity:Int
@@ -25,6 +27,7 @@ struct ConfirmView: View {
         orderModel.add(menuID: menuID, size:size, quantity: quantity, comments: comments)
         isPresented = false
     }
+    
     
     var body: some View {
         VStack{
@@ -46,14 +49,27 @@ struct ConfirmView: View {
                 .font(.headline)
             TextField("Add your comments here", text: $comments)
                 .background(Color("G4"))
+            SizePickerView(size: $size)
+            QuantityStepperView(quantity: $quantity)
+
             Spacer()
-            Button(action: addItem){
-                Text("Add")
-                    .font(.title)
-                .padding()
-                .background(Color("G4"))
-                .cornerRadius(10)
-            }.padding([.bottom])
+            HStack {
+                Button(action: addItem){
+                    Text("Add")
+                        .font(.title)
+                    .padding()
+                    .background(Color("G4"))
+                    .cornerRadius(10)
+                }.padding([.bottom])
+                Spacer()
+                Button(action: {self.isPresented = false}){
+                    Text("Cancel")
+                        .font(.title)
+                    .padding()
+                    .background(Color("G4"))
+                    .cornerRadius(10)
+                }.padding([.bottom])
+            }.padding()
         }
         .background(Color("G3"))
         .foregroundColor(Color("IP"))
