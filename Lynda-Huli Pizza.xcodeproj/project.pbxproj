@@ -25,6 +25,9 @@
 		DC41FE4024178E8700DD8223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC41FE3F24178E8700DD8223 /* Assets.xcassets */; };
 		DC41FE4324178E8700DD8223 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC41FE4224178E8700DD8223 /* Preview Assets.xcassets */; };
 		DC41FE4624178E8700DD8223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC41FE4424178E8700DD8223 /* LaunchScreen.storyboard */; };
+		DC55445D24277B7D007F7DCC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55445C24277B7D007F7DCC /* MapViewController.swift */; };
+		DC55445F24277B8A007F7DCC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55445E24277B8A007F7DCC /* MapView.swift */; };
+		DC55446124277D3C007F7DCC /* CloseUpMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55446024277D3C007F7DCC /* CloseUpMapView.swift */; };
 		DC75ABC4241D78CB0070CBD7 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75ABC1241D78CB0070CBD7 /* MenuModel.swift */; };
 		DC75ABC5241D78CB0070CBD7 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75ABC2241D78CB0070CBD7 /* HistoryModel.swift */; };
 		DC75ABC6241D78CB0070CBD7 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC75ABC3241D78CB0070CBD7 /* OrderModel.swift */; };
@@ -55,6 +58,9 @@
 		DC41FE4224178E8700DD8223 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC41FE4524178E8700DD8223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC41FE4724178E8700DD8223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC55445C24277B7D007F7DCC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DC55445E24277B8A007F7DCC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DC55446024277D3C007F7DCC /* CloseUpMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseUpMapView.swift; sourceTree = "<group>"; };
 		DC75ABC1241D78CB0070CBD7 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		DC75ABC2241D78CB0070CBD7 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
 		DC75ABC3241D78CB0070CBD7 /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
@@ -82,6 +88,9 @@
 				DC21C29D241A257E007DCAB1 /* HistoryListView.swift */,
 				DC06FE9D24222F3500DC6BCF /* HistoryDetailView.swift */,
 				DCA625FD241C8A160023158B /* HistoryRowView.swift */,
+				DC55445C24277B7D007F7DCC /* MapViewController.swift */,
+				DC55446024277D3C007F7DCC /* CloseUpMapView.swift */,
+				DC55445E24277B8A007F7DCC /* MapView.swift */,
 			);
 			path = HistoryView;
 			sourceTree = "<group>";
@@ -236,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC75ABC4241D78CB0070CBD7 /* MenuModel.swift in Sources */,
+				DC55445F24277B8A007F7DCC /* MapView.swift in Sources */,
 				DC41FE3A24178E8500DD8223 /* AppDelegate.swift in Sources */,
 				DC06FE9E24222F3500DC6BCF /* HistoryDetailView.swift in Sources */,
 				DC75ABC8241DA8930070CBD7 /* MenuDetailView.swift in Sources */,
@@ -244,6 +254,7 @@
 				DC21C29C241A2539007DCAB1 /* HistoryView.swift in Sources */,
 				DC06FEA02422319500DC6BCF /* RootTabView.swift in Sources */,
 				DC21C28E241A215E007DCAB1 /* OrderListView.swift in Sources */,
+				DC55445D24277B7D007F7DCC /* MapViewController.swift in Sources */,
 				DC21C292241A2239007DCAB1 /* ContentHeaderView.swift in Sources */,
 				DC21C298241A236F007DCAB1 /* RatingsView.swift in Sources */,
 				DCA62602241CDAFB0023158B /* SelectedImageView.swift in Sources */,
@@ -251,6 +262,7 @@
 				DC75ABC6241D78CB0070CBD7 /* OrderModel.swift in Sources */,
 				DC21C296241A2341007DCAB1 /* MenuRowView.swift in Sources */,
 				DCA625FE241C8A160023158B /* HistoryRowView.swift in Sources */,
+				DC55446124277D3C007F7DCC /* CloseUpMapView.swift in Sources */,
 				DC75ABC5241D78CB0070CBD7 /* HistoryModel.swift in Sources */,
 				DC21C29E241A257E007DCAB1 /* HistoryListView.swift in Sources */,
 				DC41FE3C24178E8500DD8223 /* SceneDelegate.swift in Sources */,
